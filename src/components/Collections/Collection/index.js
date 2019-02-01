@@ -1,12 +1,12 @@
 import { withStyles } from '@material-ui/core';
-import TeaFilters from './TeaFilters';
+import TeaFilter from './TeaFilter';
 import Teas from './Teas';
 
 const Collection = (props) => {
   const { classes } = props;
   return (
     <div className={classes.Root}>
-      <TeaFilters />
+      <TeaFilter />
       <Teas />
     </div>
   );

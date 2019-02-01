@@ -10,7 +10,7 @@ const theme = {
   },
   typography: {
     // Use the system font instead of the default Roboto font.
-    fontFamily: ['Philosopher', 'Arial', 'sans-serif'].join(','),
+    // fontFamily: ['Philosopher', 'Arial', 'sans-serif'].join(','),
     h1: {
       fontSize: '2rem',
     },

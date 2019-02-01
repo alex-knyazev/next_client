@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
+import teaFilter from './reducers/teaFilter';
 
 export default function getReducer() {
   return combineReducers({
     page,
+    teaFilter,
   });
 }
 

@@ -21,14 +21,14 @@ class MyDocument extends Document {
               pageContext ? pageContext.theme.palette.primary.main : null
             }
           />
-          <link
+          {/* <link
             href="https://fonts.googleapis.com/css?family=Philosopher"
             rel="stylesheet"
           />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          />
+          /> */}
         </Head>
         <body>
           <Main />

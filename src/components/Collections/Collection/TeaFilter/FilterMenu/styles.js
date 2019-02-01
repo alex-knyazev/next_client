@@ -3,51 +3,60 @@ const styles = (theme) => {
   const hoverColor = theme.palette.action.hover;
   return {
     Root: {
-      // display: 'flex',
-      zIndex: '2',
-      marginLeft: 10,
-    },
-    FilterMenu: {
       position: 'absolute',
       width: 'max-content',
+      padding: 10,
+    },
+    FilterMenuSections: {
       display: 'grid',
-      height: '360px',
       gridTemplateColumns: 'repeat(5, max-content)',
     },
-    FilterMenuSection: {
+    AcceptWrapper: {
+      width: '100%',
+      display: 'flex',
+      justifyContent: 'center',
+    },
+    Section: {
       display: 'grid',
       gridTemplateRows: 'auto 1fr',
       height: 'inherit',
-      padding: 20,
+      padding: '8px 16px 0px 16px',
     },
-    FilterSectionDivider: {
+    SectionDivider: {
       // width: '100%',
       // height: '100%',
       display: 'flex',
       alignItems: 'center',
       alignContent: 'center',
     },
-    FilterSectionDividerLine: {
+    SectionDividerLine: {
       width: 3,
       height: '60%',
       background: secondaryColor,
       borderRadius: '3px',
     },
-    FilterSectionTitle: {
+    SectionTitle: {
       color: secondaryColor,
       fontWeight: 600,
     },
-    FilterSectionList: {
+    SectionList: {
       height: 'inherit',
+      marginBottom: 0,
+      maxHeight: '45vh',
+      overflowY: 'auto',
       // padding: 4,
     },
-    FilterSectionListItem: {
+    SectionListItem: {
       padding: '8px 32px',
       cursor: 'pointer',
 
       '&:hover': {
         backgroundColor: hoverColor,
       },
+    },
+
+    AcceptButton: {
+      textTransform: 'capitalize',
     },
   };
 };

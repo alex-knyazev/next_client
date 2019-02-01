@@ -5,7 +5,7 @@ import Router from 'next/router';
 
 class Index extends React.Component {
   static async getInitialProps(ctx) {
-    const DEFAULT_ROUTER = '/collections';
+    const DEFAULT_ROUTER = '/collections/world-collection';
     if (ctx.res) {
       ctx.res.writeHead(303, { Location: DEFAULT_ROUTER });
       ctx.res.end();

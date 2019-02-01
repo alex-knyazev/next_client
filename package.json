@@ -8,7 +8,7 @@
     "lint:watch": "esw -w --fix src pages server"
   },
   "dependencies": {
-    "@material-ui/core": "^3.8.2",
+    "@material-ui/core": "^3.9.1",
     "@material-ui/icons": "^3.0.2",
     "@material-ui/styles": "^3.0.0-alpha.7",
     "apollo-boost": "^0.1.23",
